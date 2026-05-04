@@ -23,6 +23,10 @@
       {
         "type": "linkedin",
         "URL": "https://www.linkedin.com/in/nacho-puerto-mendoza/"
+      },
+      {
+        "type": "github",
+        "URL": "https://github.com/Nachopuerto95"
       }
     ]
   },
@@ -422,6 +426,10 @@
         {
           "URL": "https://www.linkedin.com/in/nacho-puerto-mendoza/",
           "type": "linkedin"
+        },
+        {
+          "URL": "https://github.com/Nachopuerto95",
+          "type": "github"
         }
       ]
     },
