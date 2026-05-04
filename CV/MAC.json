@@ -8,7 +8,7 @@
     "profile": {
       "name": "José Ignacio",
       "surnames": "Puerto Mendoza",
-      "title": "Software Engineer",
+      "title": "Fullstack Engineer",
       "description": "Soy Nacho Puerto. Trabajo como founding engineer en Datista, una startup de Madrid donde construimos ContestarIA, un producto de voz en tiempo real para call centers y operaciones de negocio.\n\nEntré como primer desarrollador y me ha tocado prácticamente todo: diseñar y construir el backend, el frontend en React y TypeScript, la base de datos, la integración con telefonía SIP en tiempo real (LiveKit y FreeSWITCH) y la infraestructura completa de unos 7 servidores con su monitorización, despliegues y red privada. Hemos pasado de cero a una plataforma en producción atendiendo llamadas reales.\n\nStack principal: React + TypeScript, Node.js + Express, Python (FastAPI), PostgreSQL, MongoDB, Redis, Docker, Linux.\n\nAdemás del trabajo en Datista, estoy en 42 Madrid — casi al final del common core, #1 de mi promoción. Ahí es donde tengo la base de bajo nivel: C, C++, memoria, procesos, sockets, concurrencia. He pasado por minishell, ft_irc, cub3D, los módulos de C++... proyectos donde no hay abstracciones que te salven.\n\nMe muevo cómodo tanto en frontend como en infra, tanto en alto nivel como en bajo. Vengo del diseño gráfico, lo que me da criterio visual cuando trabajo en frontend — entiendo los dos lados.\n\nLo que busco: equipos técnicamente exigentes, producto real, stack moderno — ya sea fullstack, sistemas, o algo en la intersección.",
       "location": {
         "notes": "Madrid, España"
@@ -31,12 +31,10 @@
     ],
     "recommendations": [
       {
-        "title": "#1 de promoción — 42 Madrid",
-        "description": "Mejor expediente académico de la promoción en 42 Madrid (Fundación Telefónica), escuela de programación con metodología peer-to-peer y sin profesores."
+        "title": "#1 de promoción en 42 Madrid"
       },
       {
-        "title": "Fittracker seleccionado para el International HackShow",
-        "description": "Proyecto Fittracker elegido por Ironhack para representar al bootcamp en la International HackShow frente a otras escuelas de tecnología."
+        "title": "Fittracker — International HackShow"
       }
     ]
   },
@@ -44,31 +42,27 @@
     "jobs": [
       {
         "organization": {
-          "name": "Datista Tech",
-          "description": "Startup de Madrid que desarrolla ContestarIA, plataforma SaaS de agentes de voz con IA para call centers y operaciones de negocio."
+          "name": "Datista Tech"
         },
         "roles": [
           {
-            "name": "Software Engineer (Founding)",
-            "startDate": "2025-09",
+            "name": "Fullstack Engineer",
+            "startDate": "2025-09-01",
             "challenges": [
               {
-                "description": "Primer y único ingeniero de ContestarIA. Responsable de todas las decisiones técnicas y del ciclo completo del producto, de cero a producción con clientes reales."
+                "description": "Primer ingeniero de ContestarIA, plataforma SaaS de agentes de voz en tiempo real para call centers. Responsable end-to-end del producto desde cero a producción con clientes reales."
               },
               {
-                "description": "Backend: Python + FastAPI, PostgreSQL, Celery + Redis para workers asíncronos. Sistema de autenticación, gestión de agentes de voz personalizables con editor de código integrado y panel de operaciones para clientes."
+                "description": "Backend Python + FastAPI, PostgreSQL, workers asíncronos con Celery + Redis. Sistema de autenticación, gestión de agentes con editor de código integrado y panel de operaciones."
               },
               {
-                "description": "Frontend: React + TypeScript — dashboards de cliente, widgets embebibles para terceros y webs públicas."
+                "description": "Frontend React + TypeScript: dashboards de cliente, widgets embebibles y webs públicas."
               },
               {
-                "description": "Voz en tiempo real: pipeline STT → LLM → TTS sobre FreeSWITCH (SIP/VoIP) y LiveKit. Despliegue dinámico de agentes sobre un cluster de workers."
+                "description": "Pipeline de voz en tiempo real STT → LLM → TTS sobre FreeSWITCH y LiveKit (SIP). Despliegue dinámico de agentes de voz sobre cluster de workers."
               },
               {
-                "description": "Infraestructura: ~7 servidores en producción con Docker, red privada WireGuard, despliegues por SSH y stack completo de observabilidad (Prometheus, Grafana, Loki, Alertmanager con alertas a Telegram)."
-              },
-              {
-                "description": "Automatización interna: flujos de trabajo con n8n, Claude API y OpenAI API para acelerar operativa del equipo."
+                "description": "Infra Docker multi-servidor (~7 servidores) con red privada WireGuard, despliegues automatizados por SSH y observabilidad completa: Prometheus, Grafana, Loki, Alertmanager."
               }
             ],
             "competences": [
@@ -85,11 +79,8 @@
               { "name": "FreeSWITCH", "type": "technology" },
               { "name": "Prometheus", "type": "technology" },
               { "name": "Grafana", "type": "technology" },
-              { "name": "Loki", "type": "technology" },
               { "name": "WireGuard", "type": "technology" },
-              { "name": "n8n", "type": "technology" },
-              { "name": "Nginx", "type": "technology" },
-              { "name": "Caddy", "type": "technology" }
+              { "name": "n8n", "type": "technology" }
             ]
           }
         ]
@@ -99,22 +90,24 @@
       {
         "details": {
           "name": "Fittracker",
-          "description": "App fullstack de tracking de entrenamientos y comidas en un único dashboard. Autenticación, perfil de usuario, registro de series y macros. Seleccionado por Ironhack para el International HackShow.",
-          "URL": "https://fit-tracker.fly.dev"
+          "description": "App fullstack de tracking de entrenamientos y comidas en un único dashboard. Seleccionado por Ironhack para representar al bootcamp en la International HackShow.",
+          "URL": "https://fit-tracker.fly.dev",
+          "image": {
+            "alt": "Fittracker"
+          }
         },
         "type": "sideProject",
         "roles": [
           {
-            "name": "Desarrollador fullstack",
-            "startDate": "2024-01",
-            "finishDate": "2024-06",
+            "name": "Desarrollador",
+            "startDate": "2024-01-01",
+            "finishDate": "2024-06-01",
             "competences": [
               { "name": "React", "type": "technology" },
               { "name": "Node.js", "type": "technology" },
               { "name": "Express", "type": "technology" },
               { "name": "MongoDB", "type": "technology" },
-              { "name": "Vite", "type": "technology" },
-              { "name": "Fly.io", "type": "technology" }
+              { "name": "Vite", "type": "technology" }
             ]
           }
         ]
@@ -122,14 +115,14 @@
       {
         "details": {
           "name": "GymTracker v2",
-          "description": "Evolución mobile-first de Fittracker centrada en el flujo de gimnasio. Builder de rutinas drag-and-drop (@dnd-kit), tracker en sesión con registro de series/reps/peso y calendario de historial.",
+          "description": "Evolución mobile-first de Fittracker. Builder de rutinas drag-and-drop, tracker en sesión con registro de series/reps/peso y calendario de historial.",
           "URL": "https://github.com/Nachopuerto95/gymtrackerv2"
         },
         "type": "sideProject",
         "roles": [
           {
-            "name": "Desarrollador fullstack",
-            "startDate": "2024-06",
+            "name": "Desarrollador",
+            "startDate": "2024-06-01",
             "competences": [
               { "name": "React", "type": "technology" },
               { "name": "TypeScript", "type": "technology" },
@@ -145,15 +138,15 @@
       {
         "details": {
           "name": "Reelations",
-          "description": "Red social en torno al cine: búsqueda de películas, reseñas, listas personalizadas y seguimiento de usuarios. Server-side rendering con Handlebars sobre Express + MongoDB.",
+          "description": "Red social en torno a películas: búsqueda, reseñas, listas y seguimiento de usuarios. Server-side rendering con Handlebars sobre Express + MongoDB.",
           "URL": "https://project-module2.fly.dev/"
         },
         "type": "sideProject",
         "roles": [
           {
-            "name": "Desarrollador fullstack",
-            "startDate": "2023-09",
-            "finishDate": "2023-12",
+            "name": "Desarrollador",
+            "startDate": "2023-09-01",
+            "finishDate": "2023-12-01",
             "competences": [
               { "name": "Node.js", "type": "technology" },
               { "name": "Express", "type": "technology" },
@@ -166,15 +159,15 @@
       {
         "details": {
           "name": "Adventure Forest",
-          "description": "Endless runner 2D con HTML5 Canvas y JavaScript puro. Game loop, parallax multicapa, clases de entidad, detección de colisiones y ranking local — sin framework ni build step.",
+          "description": "Endless runner 2D con HTML5 Canvas y JavaScript puro. Game loop, parallax, detección de colisiones y ranking local — sin framework ni build step.",
           "URL": "https://adventure-forest-nachopuerto.netlify.app/"
         },
         "type": "sideProject",
         "roles": [
           {
             "name": "Desarrollador",
-            "startDate": "2023-06",
-            "finishDate": "2023-09",
+            "startDate": "2023-06-01",
+            "finishDate": "2023-09-01",
             "competences": [
               { "name": "JavaScript", "type": "technology" },
               { "name": "HTML", "type": "technology" },
@@ -186,14 +179,14 @@
       {
         "details": {
           "name": "ft_irc — 42 Madrid",
-          "description": "Servidor IRC completo en C++98. Multiplexado con poll(), soporte de múltiples canales, modos de usuario y canal, comandos de operador (KICK, INVITE, TOPIC, MODE). Gestión de clientes concurrentes sobre TCP sin bloqueo.",
+          "description": "Servidor IRC completo en C++98 con poll(), canales, modos de usuario/canal y comandos de operador. Gestión de múltiples clientes concurrentes sobre sockets TCP.",
           "URL": "https://github.com/Nachopuerto95/ft_irc"
         },
         "type": "sideProject",
         "roles": [
           {
             "name": "Desarrollador",
-            "startDate": "2024-09",
+            "startDate": "2024-09-01",
             "competences": [
               { "name": "C++", "type": "technology" }
             ]
@@ -203,14 +196,14 @@
       {
         "details": {
           "name": "cub3D — 42 Madrid",
-          "description": "Motor 3D en primera persona construido sobre raycasting + algoritmo DDA en C puro. Paredes texturizadas, suelo y techo con perspectiva correcta, shading por distancia y HUD básico.",
+          "description": "Motor 3D en primera persona construido sobre raycasting + algoritmo DDA en C. Paredes texturizadas, suelo/techo y shading por distancia.",
           "URL": "https://github.com/Nachopuerto95/cub3d"
         },
         "type": "sideProject",
         "roles": [
           {
             "name": "Desarrollador",
-            "startDate": "2024-06",
+            "startDate": "2024-06-01",
             "competences": [
               { "name": "C", "type": "technology" }
             ]
@@ -220,14 +213,14 @@
       {
         "details": {
           "name": "Minishell — 42 Madrid",
-          "description": "Shell personalizada en C: lexer, parser, expansión de variables de entorno, redirecciones (<, >, >>), pipes, heredoc y manejo correcto de señales (Ctrl+C, Ctrl+D, Ctrl+\\).",
+          "description": "Shell personalizada en C con parsing de comandos, pipes, redirecciones, variables de entorno y señales.",
           "URL": "https://github.com/jpuerto-loruzqui/42Minishell"
         },
         "type": "sideProject",
         "roles": [
           {
             "name": "Desarrollador",
-            "startDate": "2024-03",
+            "startDate": "2024-03-01",
             "competences": [
               { "name": "C", "type": "technology" }
             ]
@@ -237,14 +230,14 @@
       {
         "details": {
           "name": "Philosophers — 42 Madrid",
-          "description": "Problema de los filósofos cenando con threads POSIX y mutexes. Gestión precisa de concurrencia, prevención de deadlocks y condiciones de carrera, medición de tiempos con gettimeofday.",
+          "description": "Problema de los filósofos cenando implementado con threads POSIX y mutexes. Gestión de concurrencia, deadlocks y condiciones de carrera.",
           "URL": "https://github.com/Nachopuerto95/Philosophers"
         },
         "type": "sideProject",
         "roles": [
           {
             "name": "Desarrollador",
-            "startDate": "2024-02",
+            "startDate": "2024-02-01",
             "competences": [
               { "name": "C", "type": "technology" }
             ]
@@ -254,18 +247,17 @@
       {
         "details": {
           "name": "Inception — 42 Madrid",
-          "description": "Infraestructura completa desde cero con Docker Compose: NGINX con SSL, WordPress + php-fpm, MariaDB, Redis, FTP y servicios bonus. Todo sin imágenes prebuildeadas.",
+          "description": "Infraestructura completa desde cero con Docker Compose: NGINX, WordPress + php-fpm, MariaDB y servicios bonus.",
           "URL": "https://github.com/Nachopuerto95/inception"
         },
         "type": "sideProject",
         "roles": [
           {
             "name": "Desarrollador",
-            "startDate": "2024-10",
+            "startDate": "2024-10-01",
             "competences": [
               { "name": "Docker", "type": "technology" },
-              { "name": "Bash", "type": "technology" },
-              { "name": "Nginx", "type": "technology" }
+              { "name": "Bash", "type": "technology" }
             ]
           }
         ]
@@ -273,63 +265,19 @@
       {
         "details": {
           "name": "Pipex — 42 Madrid",
-          "description": "Reimplementación del pipeline de shell en C: fork(), execve(), pipe() y dup2(). Soporte de múltiples comandos encadenados y redirecciones.",
+          "description": "Reimplementación del pipeline de shell en C usando fork, execve, pipe y dup2.",
           "URL": "https://github.com/Nachopuerto95/pipex"
         },
         "type": "sideProject",
         "roles": [
           {
             "name": "Desarrollador",
-            "startDate": "2024-01",
+            "startDate": "2024-01-01",
             "competences": [
               { "name": "C", "type": "technology" }
             ]
           }
         ]
-      },
-      {
-        "details": {
-          "name": "Push_swap — 42 Madrid",
-          "description": "Ordenación de enteros con el mínimo número de operaciones sobre dos stacks usando algoritmo turco. Complejidad O(n log n) para listas grandes.",
-          "URL": "https://github.com/Nachopuerto95/push_swap"
-        },
-        "type": "sideProject",
-        "roles": [
-          {
-            "name": "Desarrollador",
-            "startDate": "2024-01",
-            "competences": [
-              { "name": "C", "type": "technology" }
-            ]
-          }
-        ]
-      },
-      {
-        "details": {
-          "name": "So_long — 42 Madrid",
-          "description": "Juego 2D con MiniLibX. Validación de mapa con Flood Fill, gestión de sprites, movimiento de personaje y conteo de coleccionables.",
-          "URL": "https://github.com/Nachopuerto95/so_long"
-        },
-        "type": "sideProject",
-        "roles": [
-          {
-            "name": "Desarrollador",
-            "startDate": "2024-02",
-            "competences": [
-              { "name": "C", "type": "technology" }
-            ]
-          }
-        ]
-      }
-    ],
-    "publicArtifacts": [
-      {
-        "details": {
-          "name": "International HackShow — Ironhack",
-          "description": "Fittracker seleccionado para representar a Ironhack en la International HackShow, competición entre proyectos de bootcamps de tecnología.",
-          "type": "other"
-        },
-        "publishingDate": "2024-03"
       }
     ]
   },
@@ -355,57 +303,49 @@
       { "skill": { "name": "Tailwind CSS", "type": "technology" } },
       { "skill": { "name": "Zustand", "type": "technology" } },
       { "skill": { "name": "Vite", "type": "technology" } },
-      { "skill": { "name": "HTML", "type": "technology" } },
-      { "skill": { "name": "CSS", "type": "technology" } },
       { "skill": { "name": "C", "type": "technology" } },
       { "skill": { "name": "C++", "type": "technology" } },
       { "skill": { "name": "Python", "type": "technology" } },
       { "skill": { "name": "FastAPI", "type": "technology" } },
-      { "skill": { "name": "Bash", "type": "technology" } },
       { "skill": { "name": "PostgreSQL", "type": "technology" } },
       { "skill": { "name": "MongoDB", "type": "technology" } },
       { "skill": { "name": "Redis", "type": "technology" } },
       { "skill": { "name": "Celery", "type": "technology" } },
       { "skill": { "name": "Docker", "type": "technology" } },
       { "skill": { "name": "Linux", "type": "technology" } },
+      { "skill": { "name": "Bash", "type": "technology" } },
       { "skill": { "name": "Git", "type": "technology" } },
-      { "skill": { "name": "GitHub", "type": "technology" } },
       { "skill": { "name": "Nginx", "type": "technology" } },
       { "skill": { "name": "Prometheus", "type": "technology" } },
       { "skill": { "name": "Grafana", "type": "technology" } },
-      { "skill": { "name": "Loki", "type": "technology" } },
       { "skill": { "name": "LiveKit", "type": "technology" } },
       { "skill": { "name": "FreeSWITCH", "type": "technology" } },
       { "skill": { "name": "WireGuard", "type": "technology" } },
-      { "skill": { "name": "n8n", "type": "technology" } },
-      { "skill": { "name": "Figma", "type": "technology" } }
+      { "skill": { "name": "n8n", "type": "technology" } }
     ],
     "softSkills": [
-      { "skill": { "name": "Autonomía total en entornos sin estructura", "type": "practice" } },
-      { "skill": { "name": "Aprendizaje rápido y autodidacta", "type": "practice" } },
-      { "skill": { "name": "Visión de producto y criterio de diseño", "type": "practice" } },
-      { "skill": { "name": "Resolución pragmática de problemas", "type": "practice" } },
-      { "skill": { "name": "Capacidad para cubrir múltiples roles a la vez", "type": "practice" } }
+      { "skill": { "name": "Autonomía total", "type": "practice" } },
+      { "skill": { "name": "Aprendizaje rápido", "type": "practice" } },
+      { "skill": { "name": "Visión de producto", "type": "practice" } }
     ],
     "studies": [
       {
         "studyType": "officialDegree",
         "degreeAchieved": false,
         "name": "Programación de Sistemas",
-        "description": "#1 de promoción. Common core casi completado: libft, get_next_line, ft_printf, born2beroot, pipex, so_long, push_swap, minishell, philosophers, NetPractice, cub3D, CPP módulos (00-08), ft_irc, Inception. Pendiente: ft_transcendence.",
-        "startDate": "2024-01",
+        "description": "#1 de promoción. Common core casi completado: libft, get_next_line, ft_printf, pipex, so_long, push_swap, minishell, philosophers, NetPractice, cub3D, CPP módulos (00-08), ft_irc, Inception.",
+        "startDate": "2024-01-01",
         "institution": {
           "name": "42 Madrid (Fundación Telefónica)",
-          "URL": "https://42madrid.com",
-          "description": "Escuela de programación sin profesores ni clases magistrales. Aprendizaje basado en proyectos y evaluación entre pares."
+          "URL": "https://42madrid.com"
         }
       },
       {
         "studyType": "officialDegree",
         "degreeAchieved": true,
         "name": "Bootcamp Full-stack Web Development",
-        "startDate": "2023-01",
-        "finishDate": "2024-01",
+        "startDate": "2023-01-01",
+        "finishDate": "2024-01-01",
         "institution": {
           "name": "Ironhack",
           "URL": "https://ironhack.com"
@@ -415,30 +355,11 @@
         "studyType": "officialDegree",
         "degreeAchieved": true,
         "name": "Grado en Diseño Digital",
-        "description": "Diseño gráfico, UX/UI, tipografía, identidad visual y diseño de interacción.",
-        "startDate": "2019-01",
-        "finishDate": "2024-01",
+        "startDate": "2019-01-01",
+        "finishDate": "2024-01-01",
         "institution": {
           "name": "Universitat Oberta de Catalunya (UOC)"
         }
-      }
-    ],
-    "interests": [
-      {
-        "name": "Sistemas de bajo nivel",
-        "description": "Programación en C/C++, sistemas operativos, networking, compiladores y todo lo que ocurre debajo de las abstracciones."
-      },
-      {
-        "name": "Sistemas en tiempo real",
-        "description": "Arquitecturas de voz, WebRTC, SIP/VoIP, procesamiento de streams y latencia ultra-baja."
-      },
-      {
-        "name": "Infraestructura y observabilidad",
-        "description": "Docker, redes privadas, monitorización de sistemas en producción y operaciones DevOps."
-      },
-      {
-        "name": "Producto y diseño",
-        "description": "Interfaz de usuario, experiencia de producto, diseño de sistemas y criterio visual aplicado al desarrollo frontend."
       }
     ]
   },
@@ -462,35 +383,19 @@
         { "name": "Docker", "type": "technology" },
         { "name": "Linux", "type": "technology" }
       ],
-      "discardedCompetences": [
-        { "name": "Java", "type": "technology" },
-        { "name": "PHP", "type": "technology" },
-        { "name": ".NET", "type": "technology" }
-      ],
       "preferredRoles": [
-        "Software Engineer",
         "Fullstack Developer",
+        "Software Engineer",
         "Backend Developer",
         "Systems Engineer",
-        "C/C++ Engineer",
-        "Infrastructure Engineer"
+        "C/C++ Engineer"
       ],
       "discardedRoles": [
         "Data Scientist",
         "Machine Learning Engineer",
-        "QA Engineer",
-        "Scrum Master"
+        "QA Engineer"
       ]
     },
-    "status": "openToOffers",
-    "requirements": {
-      "preferredContractTypes": ["permanent"],
-      "preferredWorkModels": ["remote", "hybrid"],
-      "preferredSalaryRange": {
-        "currency": "EUR",
-        "from": 28000,
-        "to": 36000
-      }
-    }
+    "status": "openToOffers"
   }
 }
