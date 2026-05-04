@@ -1,0 +1,464 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
+  "settings": {
+    "language": "ES",
+    "MACVersion": "0.5"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Jose ignacio",
+      "surnames": "Puerto",
+      "title": "Desarrollador Fullstack y de IA en Datista Tech | Inteligencia artificial",
+      "description": "Soy Nacho Puerto. Trabajo como founding engineer en Datista, una startup de Madrid donde construimos ContestarIA, un producto de voz en tiempo real para call centers y operaciones de negocio.Entré como primer desarrollador y me ha tocado prácticamente todo: diseñar y construir el backend, el frontend en React y TypeScript, la base de datos, la integración con telefonía SIP en tiempo real (LiveKit y FreeSWITCH) y la infraestructura completa de unos 7 servidores con su monitorización, despliegues y red privada. Hemos pasado de cero a una plataforma en producción atendiendo llamadas reales.Stack principal: React + TypeScript, Node.js + Express, Python (FastAPI), PostgreSQL, MongoDB, Redis, Docker, Linux. Además del trabajo en Datista, estoy en 42 Madrid — casi al final del common core,. Ahí es donde tengo la base de bajo nivel: C, C++, memoria, procesos, sockets, concurrencia. He pasado por minishell, ft_irc, cub3D, los módulos de C++... proyectos donde no hay abstracciones que te salven.Me muevo cómodo tanto en frontend como en infra, tanto en alto nivel como en bajo. Vengo del diseño gráfico, lo que me da criterio visual cuando trabajo en frontend — entiendo los dos lados.Lo que busco: equipos técnicamente exigentes, producto real, stack moderno ya sea fullstack, sistemas, o algo en la intersección.",
+      "avatar": {
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/05/04/04ae8a3a-329b-4cb5-8557-b86749aada76_nacho-avatar.jpg",
+        "alt": "nacho-avatar.jpg"
+      },
+      "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJi7xhMnjjQgwR7KNoB5Qs7KY)",
+        "country": "España"
+      }
+    },
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/nacho-puerto-mendoza/"
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Datista Tech"
+        },
+        "roles": [
+          {
+            "name": "Datista Tech (Fullstack Engineer)",
+            "startDate": "2025-11-01",
+            "challenges": [
+              {
+                "description": "Primer desarrollador en Datista, donde construimos ContestarIA, una plataforma de agentes de IA de voz y texto para call centers y operaciones de negocio. Entré como única persona técnica y he llevado el producto y la infraestructura de cero a producción atendiendo llamadas reales.  Mi trabajo abarca todo el ciclo:  • Producto full stack: backend en Python con FastAPI, frontend en React + TypeScript, PostgreSQL, Redis y workers asíncronos con Celery. Sistema de autenticación, gestión de agentes personalizados con editor de código integrado y panel de operaciones para clientes.  • Infraestructura y operaciones: diseño y mantenimiento de unos 7 servidores en producción con Docker, red privada vía WireGuard, despliegues automatizados por SSH y un stack completo de observabilidad con Prometheus, Grafana, Loki y Alertmanager.  • Telefonía y voz en tiempo real: integración SIP con FreeSWITCH y LiveKit, pipeline de voz STT → LLM → TTS y despliegue dinámico de agentes de voz sobre un cluster de workers.  • Automatización interna con IA: flujos de trabajo y agentes (n8n, Claude, integraciones con LLMs) que aceleran tareas del equipo y de la operativa de la empresa.  Automatización interna: flujos de trabajo con n8n, Claude y LLMs para acelerar tareas del equipo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "ESCAV Escuela Superior de Comunicación Audiovisual"
+        },
+        "roles": [
+          {
+            "name": "Especialista en Comunicación Visual y Contenidos Digitales",
+            "startDate": "2018-03-01",
+            "finishDate": "2018-06-01",
+            "challenges": [
+              {
+                "description": "- Creación y edición de vídeos corporativos para campañas. - Diseño de banners, GIFs animados y otros elementos gráficos para redes sociales y medios digitales. - Apoyo en estrategias de comunicación alternativa, orientadas a captar la atención de distintos públicos. - Colaboración activa en el mantenimiento y actualización de la página web, integrando contenido visual coherente con la identidad de marca."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Informatica Megasur s.l"
+        },
+        "roles": [
+          {
+            "name": "Diseñador/a de contenido visual y edición de producto",
+            "startDate": "2017-03-01",
+            "finishDate": "2017-06-01",
+            "challenges": [
+              {
+                "description": "- Colaboración en la elaboración del catálogo de productos, mediante fotografía y edición profesional de imágenes, asegurando una presentación atractiva y coherente con la marca. - Diseño de banners promocionales y gráficos publicitarios para web y redes sociales. - Participación en el diseño de productos personalizados, como alfombrillas de ratón, integrando criterios estéticos y comerciales. - Aunque no directamente vinculado al desarrollo frontend, esta experiencia reforzó mi atención al detalle, sentido del diseño visual y comprensión de cómo los elementos gráficos influyen en la experiencia del usuario — competencias clave que ahora aplico al crear interfaces web atractivas y funcionales."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Ugr Media"
+        },
+        "roles": [
+          {
+            "name": "Colaboración en el área de comunicación visual",
+            "startDate": "2014-03-01",
+            "finishDate": "2014-06-01",
+            "challenges": [
+              {
+                "description": "- Apoyo en el desarrollo gráfico de la página web de Relaciones Internacionales de la Universidad de Granada. - Diseño y adaptación de elementos visuales alineados con la identidad institucional.  Colaboración con el equipo de comunicación para mejorar la presentación visual de contenidos digitales orientados al público internacional. - Experiencia en entornos académicos y corporativos, aplicando criterios de diseño funcional y accesibilidad web."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "PUERTO AGRARIOS"
+        },
+        "roles": [
+          {
+            "name": "Operativa y gestión autónoma — empresa familiar agrícola (olivar)",
+            "startDate": "2013-06-01",
+            "finishDate": "2023-09-01",
+            "challenges": [
+              {
+                "description": " Compaginé estudios de comunicación audiovisual y diseño con la operativa de la empresa familiar. Coordinación logística de campañas anuales,  gestión de proveedores, equipos de temporada y mantenimiento de explotación. Década de autonomía total trabajando en un entorno donde no hay  nadie diciéndote qué hacer. base de la disciplina y resolución pragmática que aplico hoy en producto.  "
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "EN",
+        "fullName": "Inglés",
+        "level": "Professional working proficiency"
+      },
+      {
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Native or bilingual proficiency"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": "AJAX",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Adobe Creative Suite",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Adobe Illustrator",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Adobe Photoshop",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Bash",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Bootstrap",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "C",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "C++",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "CSS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Celery",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Docker",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Express",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Fastapi",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Git",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Github",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Grafana",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "HTML",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Java",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Jira",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Linux",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MERN Stack",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MongoDB",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NextJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NodeJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PostgreSQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Python",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "React",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Redis",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Shell",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Spring Boot",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Tailwind",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "TypeScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "WebRTC",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "WordPress",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "n8n",
+          "type": "technology"
+        }
+      }
+    ],
+    "studies": [
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "C Piscine",
+        "startDate": "2024-11-01",
+        "institution": {
+          "name": "42"
+        },
+        "finishDate": "2024-12-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Ciclo Formativo de Grado Medio",
+        "startDate": "2015-09-01",
+        "institution": {
+          "name": "I.E.S albayzin"
+        },
+        "finishDate": "2017-06-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Ciclo Formativo de Grado Superior",
+        "startDate": "2017-09-01",
+        "institution": {
+          "name": "ESCO Escuela Superior de Comunicación y Marketing"
+        },
+        "finishDate": "2019-07-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Ciclo Formativo de Grado Superior",
+        "startDate": "2017-09-01",
+        "institution": {
+          "name": "ESCO Escuela Superior de Comunicación y Marketing"
+        },
+        "finishDate": "2019-06-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": false,
+        "name": "Full Stack Web Development Bootcamp",
+        "startDate": "2026-05-04",
+        "institution": {
+          "name": "Ironhack"
+        }
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Grado",
+        "startDate": "2020-09-01",
+        "institution": {
+          "name": "Universitat Oberta de Catalunya"
+        },
+        "finishDate": "2023-06-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": false,
+        "name": "Student",
+        "startDate": "2025-01-01",
+        "institution": {
+          "name": "42 The Network"
+        }
+      }
+    ]
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "URL": "https://www.linkedin.com/in/nacho-puerto-mendoza/",
+          "type": "linkedin"
+        }
+      ]
+    },
+    "preferences": {
+      "preferredRoles": [
+        "Full-stack Developer"
+      ]
+    },
+    "status": "searchingActively",
+    "requirements": {
+      "contractTypes": [
+        "permanent"
+      ]
+    }
+  },
+  "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "C",
+        "type": "technology"
+      },
+      {
+        "name": "C++",
+        "type": "technology"
+      },
+      {
+        "name": "MERN Stack",
+        "type": "technology"
+      },
+      {
+        "name": "React",
+        "type": "technology"
+      },
+      {
+        "name": "TypeScript",
+        "type": "technology"
+      }
+    ]
+  }
+}
